@@ -1,0 +1,67 @@
+body {
+    margin: 30px;
+}
+h1, h4 {
+    font-family: sans-serif;
+    text-align: center;
+    font-size: 30px;
+}
+
+p {
+    font-family: sans-serif;
+}
+
+divcenter {
+    text-align: center;
+    margin: 0px;
+    display: inline;
+}
+
+h4::after {
+        content: "\01F388";
+        font-size: 30px;
+    }
+
+h4.inflate2 {
+    font-size: 60px;
+}
+
+h4.inflate3 {
+    font-size: 75px;
+}
+h4.inflate1 {
+        font-size: 100px;
+    }
+
+h4.deflate1 {
+    font-size: 15px;
+}
+
+h4.deflate2 {
+    font-size: 0px;
+}
+h4.deflate3 {
+    font-size: -15px;
+}
+
+
+
+/* #inflate {
+    content: "\01F388";
+    text-align: center;
+    background: blue;
+    margin: 0px;
+    display: inline;
+    font-size:45px;
+} 
+
+#deflate {
+    content: "\01F388";
+    text-align: center;
+    background: blue;
+    margin: 0px;
+    display: inline;
+    font-size:px;
+}
+
+*/ 
